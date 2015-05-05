@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20150128211352) do
 
-  create_table "actors", force: :cascade do |t|
+create_table "actors", force: :cascade do |t|
     t.string   "name"
     t.string   "image_url"
     t.text     "bio"

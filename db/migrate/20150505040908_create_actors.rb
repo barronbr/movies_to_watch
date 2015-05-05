@@ -6,7 +6,8 @@ class CreateActors < ActiveRecord::Migration
       t.text :bio
       t.string :dob
 
-      t.timestamps null: false
+      t.timestamps
+
     end
   end
 end
